@@ -1,12 +1,12 @@
 #!/bin/bash
-# Create a resource group
+#Create a resource group
 az group create --name LogAutomationRG --location eastus
 
-# Create a storage account
+#Create a storage account
 az storage account create --name "mystorageacct$RANDOM --resource-group LogAutomationRG --location eastus --sku Standard_LRS
 
-# Create a blob container
+#Create a blob container
 az storage container create --account-name "mystorageacct$RANDOM" --name logs-container --auth-mode login
 
-# Create a table for tracking processed logs
+#Create a table for tracking processed logs
 az storage table create --name ProcessedLogs --account-name "mystorageacct$RANDOM" --auth-mode login
