@@ -1,0 +1,4 @@
+curl -s -u "$SERVICENOW_USER:$SERVICENOW_PASSWORD" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     "https://<servicenow URL/api/sn_sc/servicecatalog/items/<sys_id>/variables" | jq .

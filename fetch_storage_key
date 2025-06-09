@@ -1,0 +1,3 @@
+#!/bin/bash
+export AZURE_STORAGE_ACCOUNT="<account name>"
+export AZURE_STORAGE_KEY=$(az storage account keys list --account-name <account name> --query "[0].value" -o tsv)

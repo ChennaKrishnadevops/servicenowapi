@@ -1,0 +1,8 @@
+az storage blob upload \
+  --account-name <account name> \
+  --container-name <container name> \
+  --name sample-log.txt \
+  --file sample-log.txt \
+  --account-key <account key>
+
+

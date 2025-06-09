@@ -1,0 +1,8 @@
+export AZURE_STORAGE_ACCOUNT="<Storage Account>"
+export AZURE_STORAGE_KEY="<Azure Key>"
+export CONTAINER_NAME="<Conatiner Name>"
+export TABLE_NAME="<Table Name>"
+export SERVICENOW_URL="<ServiceNow URL>"
+export SERVICENOW_USER="<User Name>"
+export SERVICENOW_PASSWORD="<Password>"
+export SERVICENOW_CATALOG_ITEM_SYS_ID="<Sys ID>"
